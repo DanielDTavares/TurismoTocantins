@@ -1,92 +1,72 @@
-* {
-    margin: 0%;
-    padding: 0%;
-}
-
-body {
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: #f4f4f4;
-}
-
-footer {
-    background-color: rgb(47, 47, 114);
-    color: white;
-    text-align: center;
-    padding: 1em;
-}
-
-.nav-top {
+.nav-top{
     background-color: rgb(47, 47, 114) !important;
 }
 
-.nav-link {
+.nav-link{
     color: white !important;
 }
 
-.footer {
+footer{
+    background-color: rgb(47, 47, 114) !important;
+    color: white !important;
+    text-align: center !important;
+}
+
+.car-img{
+    max-height: 40em !important;
+}
+
+.carousel-caption{
+    background-color: rgba(82, 77, 77, 0.739) !important;
+}
+
+.divisao{
     background-color: rgb(47, 47, 114) !important;
     text-align: center !important;
     color: white !important;
-}
-
-.img-car {
-    max-height: 600px !important;
-}
-
-.divisao {
-    background-color: rgb(47, 47, 114) !important;
-    text-align: center !important;
-    color: white !important;
-    padding: 3em !important;
-    /*margin-bottom: 5em !important;*/
-}
-
-.carousel-caption {
-    background-color: rgba(0, 0, 0, 0.534) !important;
-}
-
-.conteudo {
-    background-color: white !important;
     padding: 2em !important;
-    margin-top: 1em !important;
-    border-radius: 2em !important;
-    width: 100% !important;
+ 
 }
 
-.principal {
-    text-align: center;
-    margin-left: 25% !important;
-    margin-right: 25% !important;
-    margin-top: 1% !important;
-    margin-bottom: 15% !important;
-}
-
-.sec-pacotes {
+.sec-pacotes{
     margin-left: 10% !important;
     margin-right: 10% !important;
     justify-content: center !important;
     margin: 1% !important;
 }
 
-.card {
+.card{
     padding: 1% !important;
-    margin: 0% 1% 1% 0% !important;
+    margin: 0% 1% 1% !important;
 }
 
-.card p {
+.card p{
     text-align: justify !important;
 }
 
-.card h4 {
+.card h4{
     color: brown !important;
 }
 
-.sec-contatos {
-    margin-bottom: 5%;
-    margin-left: 10%;
-    margin-right: 10%;
+.sec-contato{
+    margin-bottom: 10% !important;
+    margin-left: 10% !important;
+    margin-right: 10% !important;
+    margin-top: 5% !important;
 }
 
-.img-icone {
-    width: 50% !important;
+.links {
+    text-align: center;
+    padding: 1em;
+    color: rgb(0, 0, 0);
+}
+
+.mapa{
+    margin-top: 5%!important;
+}
+
+@media screen and (max-width: 768px){
+    .carousel-item{
+        
+    }
 }
